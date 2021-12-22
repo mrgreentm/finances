@@ -1,0 +1,115 @@
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+    
+    .container {
+        background-color: rgb(209, 209, 248);
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nav {
+        font-family: Licorice;
+        display: flex;
+        color: #ffffff;
+        background: rgb(2, 0, 36);
+        min-height: 5rem;
+        background: linear-gradient(0deg, rgba(2, 0, 36, 0.2329306722689075) 0%, rgba(3, 1, 47, 0) 0%, rgba(9, 9, 121, 0) 15%, rgba(31, 54, 152, 0.865983893557423) 90%);
+        padding: 10px 0 10px 15px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .nav>h1 {
+        font-size: 60px;
+    }
+    
+    .nav-links {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav-links>a {
+        font-size: 1.5rem;
+        color: rgb(58, 58, 88, 0.5);
+        font-weight: bold;
+    }
+    
+    .nav-links>a:hover {
+        font-size: 2rem;
+        transition: font-size 0.8s;
+        color: #ffffff;
+    }
+    
+    .data-container {
+        width: 80%;
+        padding: 10px 5px 5px 25px;
+        transition: padding 0.5s;
+        transition: width 0.8s;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: auto;
+        background-color: white;
+        padding: 10px;
+        box-shadow: -6px -1px 65px 46px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: -6px -1px 65px 46px rgba(255, 255, 255, 1);
+        -moz-box-shadow: -6px -1px 65px 46px rgba(255, 255, 255, 1);
+        border-radius: 10px;
+    }
+    
+    .border {
+        border: 4px solid #9ea1ff5c;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    h2 {
+        color: #1e4f8d;
+        font-family: -webkit-pictograph;
+        font-weight: 500;
+    }
+    
+    .image {
+        width: 80%;
+        border-radius: 16px;
+        padding: 15px;
+        transition: width 0.8s;
+        margin: auto;
+    }
+    
+    .image:hover {
+        width: 90%;
+        transition: width 0.8s;
+    }
+    
+    @media (max-width: 768px) {
+        .nav-links {
+            display: none;
+        }
+        .data-container {
+            transition: width 0.5s;
+            width: 80%;
+            margin: auto;
+            flex-direction: column;
+        }
+    }
+    
+    .finances {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        background-color: white;
+        padding: 10px;
+        box-shadow: -6px -1px 65px 46px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: -6px -1px 65px 46px rgba(255, 255, 255, 1);
+        -moz-box-shadow: -6px -1px 65px 46px rgba(255, 255, 255, 1);
+        border-radius: 10px;
+    }
