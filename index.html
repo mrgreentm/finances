@@ -53,7 +53,21 @@
                 recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <img class="image" src="./financas.png">
         </div>
+        <div class="form"> 
+            <label for="earnings">Informe seus ganhos do mês.</label>
+            <input type="number" name="earnings" id="earnings">
+
+            <label for="expenditure">Informe suas despesas do mês</label>
+            <input type="number" name="expenditure" id="expenditure">
+
+            <button onclick="calculateProfit(),calculateExpenses(),verifyState()">Enviar</button>
+        </div>
+        <div class="data">
+            <h1 id="allProfit">Seu lucro é: R$<strong id="profitValue"></strong></h1>
+            <h1 id="allExpenses">O total de despesas mensais foram: R$<strong id="expensesValue"></strong></h1>
+        </div>
     </div>
 </body>
+<script src="./index.js"></script>
 
 </html>

@@ -3,7 +3,12 @@
         margin: 0;
         text-decoration: none;
     }
-    
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .container {
         background-color: rgb(209, 209, 248);
         width: 100%;
@@ -112,4 +117,12 @@
         -webkit-box-shadow: -6px -1px 65px 46px rgba(255, 255, 255, 1);
         -moz-box-shadow: -6px -1px 65px 46px rgba(255, 255, 255, 1);
         border-radius: 10px;
+    }
+    .data{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
     }
